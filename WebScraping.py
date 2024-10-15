@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import requests
 
 #GET Request
-req = requests.get('https://localhost:5500')
+req = requests.get('https://python-web-7bsx.onrender.com')
 soup = BeautifulSoup(req.text, "html.parser")
 
 
