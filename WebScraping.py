@@ -12,7 +12,7 @@ office_supplies = soup.findAll("span", attrs={"class":"text"})
 
 #For Loop To Gather the Quote and the Author of the Quote
 for quote in office_supplies:
-    print(office_supplies.text)
+    print(office_supplies)
 
 #Input
 continueProgram = input("Pause Break. Type anything to see the rest of the results in html ")
